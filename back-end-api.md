@@ -5,6 +5,7 @@
 * POST 创建新的学生
 ### /students/id
 * GET 获取学生信息
+* PUT 修改学生信息
 * DELETE 删除学生
 
 ## Job
@@ -13,6 +14,7 @@
 * POST 创建新的职位
 ### /jobs/id
 * GET 获取职位信息
+* PUT 修改职位信息
 * DELETE 删除职位
 
 ## Job Skill
@@ -22,6 +24,7 @@
 * GET 获取特定条件的职位技能记录列表
 ### /job_skills/id
 * GET 获取职位技能记录信息
+* PUT 修改职位技能记录信息
 * DELETE 删除职位技能记录
 
 ## Submit Record
@@ -31,6 +34,7 @@
 * GET 获取特定条件的职位提交记录列表
 ### /submit_record/id
 * GET 获取职位提交记录信息
+* PUT 修改职位提交记录信息
 * DELETE 删除职位提交记录
 
 ## Award
@@ -40,6 +44,7 @@
 * GET 获取特定学生的奖项列表
 ### /awards/id
 * GET 获取奖项信息
+* PUT 修改奖项信息
 * DELETE 删除奖项
 
 ## Student Skill
@@ -49,6 +54,7 @@
 * GET 获取特定条件的学生技能列表
 ### /student_skills/id
 * GET 获取学生技能记录信息
+* PUT 修改学生技能记录信息
 * DELETE 删除学生技能记录
 
 ## Skill
@@ -57,12 +63,17 @@
 * POST 创建新的技能
 ### /skills/id
 * GET 获取技能信息
+* PUT 修改技能信息
+* DELETE 删除技能信息
 
 ## Laboratory
 ### /laboratories
 * GET 获取所有实验室列表
+* POST 创建新的实验室信息
 ### /laboratories/id
 * GET 获取实验室信息
+* PUT 修改实验室信息
+* DELETE 删除实验室信息
 
 ## College
 ### /colleges
